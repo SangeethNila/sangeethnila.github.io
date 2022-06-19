@@ -19,7 +19,7 @@
 
                                  <button class="ml-4 btn btn-outline" onclick=" window.open('mailto:s.kochanthara@tue.nl','_blank')"> Hire Me <i class="fa fa-fw fa-envelope"></i></a> </button>
                                  
-                                  <span class="ml-4 intro-text"> <h4> Hire me  <a href="mailto:s.kochanthara@tue.nl" target="_blank" class="btn btn-outline"><i class="fa fa-fw fa-envelope"></i></a>  </h4>  </span>  
+                                  <!-- <span class="ml-4 intro-text"> <h4> Hire me  <a href="mailto:s.kochanthara@tue.nl" target="_blank" class="btn btn-outline"><i class="fa fa-fw fa-envelope"></i></a>  </h4>  </span>   -->
                                 
                                 <!--  <button class="btn btn-dark btn-outline" onclick=" window.open('img/cv.pdf','_blank')">  Hire Me  <i class="fa fa-fw fa-envelope"></i></button> -->
                                 </div>
@@ -56,7 +56,7 @@
                             {% endif %}
                             {% if site.twitter_username %}
                             <li>
-                                <a href="https://twitter.com/{{ site.twitter_username }}" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
+                                <a onclick=" window.open('https://twitter.com/{{ site.twitter_username }},'_blank')"  class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
                             </li>
                             {% endif %}
                             {% if site.github_username %}
@@ -86,9 +86,12 @@
                             {% endif %}
                             {% if site.linkedin_url %}
                             <li>
-                                <a href="{{ site.linkedin_url }}" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
+                                <a onclick=" window.open('{{ site.linkedin_url }}','_blank')"  class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
                             </li>
                             {% endif %}
+                            <li>
+                                <a onclick=" window.open('mailto:s.kochanthara@tue.nl','_blank')" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
+                            </li>
                         </ul>
                     </div>
               </div>
