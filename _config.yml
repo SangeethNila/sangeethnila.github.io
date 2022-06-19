@@ -15,7 +15,7 @@ url: "http://yourdomain.com" # the base hostname & protocol for your site
 
 # Social media profiles - feel free to add more here
 twitter_username: Kochanthara
-github_username:  SangeethNila
+#github_username:  SangeethNila
 #facebook_username: StartBootstrap
 #instagram_username: beyonce
 #stackoverflow_url: https://
@@ -24,10 +24,10 @@ github_username:  SangeethNila
 linkedin_url: https://www.linkedin.com/in/sangeethko/
 
 # Address information
-address_street: 3034 Melrose Place
-address_city: Beverly Hills
-address_state: CA
-address_zip: 90201
+#address_street: 3034 Melrose Place
+#address_city: Beverly Hills
+#address_state: CA
+#address_zip: 90201
 
 # Build settings
 markdown: kramdown
