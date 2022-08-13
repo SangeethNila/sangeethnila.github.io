@@ -9,9 +9,9 @@
 title: Sangeeth Kochanthara
 email: s.kochanthara@tue.nl
 description: > # this means to ignore newlines until "baseurl:"
-  Ph.D. Candidate - Software Engineering - System Engineering - Software Architecture - Safety 
-baseurl: "/startbootstrap-freelancer-jekyll" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+  Ph.D. Candidate - Software Engineering - System Engineering - Software Architecture  
+#baseurl: "/startbootstrap-freelancer-jekyll" # the subpath of your site, e.g. /blog
+url: "http://www.sangeeth.me" # the base hostname & protocol for your site
 
 # Social media profiles - feel free to add more here
 twitter_username: kochanthara
